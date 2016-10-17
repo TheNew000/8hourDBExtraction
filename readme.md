@@ -77,4 +77,6 @@ ON T1.item_id = T3.item_id
 GROUP BY First_Name, Last_Name, Email
 ORDER BY Count DESC;
 ```
-This was INFINITELY faster AND allowed me to lump any repeat entries together, while keeping a tally of how many times they were present!
+This was INFINITELY faster AND allowed me to lump any repeat entries together, while keeping a tally of how many times they were present (emails not blurred for obvious spambot entries):
+
+![DB2 Screen Shot](img/SH2.png "DB2 Screen Shot") 
